@@ -1,0 +1,17 @@
+body {
+    color: #2E2F42;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4e75ff;
+}
+
+a:hover {
+    color: #6c8cff;
+}

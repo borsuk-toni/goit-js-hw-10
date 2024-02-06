@@ -8,9 +8,16 @@ body {
     padding: 0;
 }
 
+a {
+    color: #4e75ff;
+}
+
+a:hover {
+    color: #6c8cff;
+}
+
 input {
     width: 272px;
-    height: 40px;
     border: 1px solid #808080;
     border-radius: 4px;
     font-family: "Montserrat", sans-serif;
@@ -21,6 +28,19 @@ input {
     margin-top: 36px;
     margin-left: 156px;
     padding: 8px 16px;
+}
+
+input:hover {
+    border: 1px solid #000;
+}
+
+input:active {
+    border: 1px solid #4e75ff;
+}
+
+input:disabled {
+    border: 1px solid #808080;
+    color: #808080;
 }
 
 button {
@@ -34,8 +54,19 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #989898;
+    background-color: #4e75ff;
+    color: #fff;
     margin-left: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
+
+button:disabled {
+    color: #989898;
+    background-color: #cfcfcf;
 }
 
 .timer {

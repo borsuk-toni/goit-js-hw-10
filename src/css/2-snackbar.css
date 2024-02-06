@@ -1,0 +1,84 @@
+body {
+    color: #2E2F42;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4e75ff;
+}
+
+a:hover {
+    color: #6c8cff;
+}
+
+.form {
+    margin-top: 36px; 
+    margin-left: 156px;
+    max-width: 360px;
+}
+
+.delay {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.delay > input {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+.delay>input:hover{
+    border: 1px solid #000;
+}
+
+fieldset {
+    margin-bottom: 24px;
+    border: 1px solid #808080;
+    display: flex;
+    gap: 48px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    padding: 24px 48px 8px 48px;
+}
+
+.radio-btn {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+fieldset > label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    border: none;
+    background-color: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6c8cff;
+}
